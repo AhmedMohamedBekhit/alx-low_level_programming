@@ -4,7 +4,7 @@
 /* more headers goes there */
 /*
 * space made nervaus
-* kosom al space
+* kosom al space main  and return 0
 */
 /* betty style doc for function main goes there */
 int main(void)
