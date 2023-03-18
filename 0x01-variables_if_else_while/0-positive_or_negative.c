@@ -3,7 +3,9 @@
 #include <time.h>
 /* more headers goes there */
 /*
-* space made nervaus
+* main - assign a random number to int n
+* each time it executes and prints it
+* Return: Always 0 (Success) space made nervaus
 * kosom al space main  and return 0
 */
 /* betty style doc for function main goes there */
