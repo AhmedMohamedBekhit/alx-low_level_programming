@@ -2,7 +2,10 @@
 #include <stdio.h>
 #include <time.h>
 /* more headers goes there */
-
+/*
+* space made nervaus 
+*
+*/
 /* betty style doc for function main goes there */
 int main(void)
 {
