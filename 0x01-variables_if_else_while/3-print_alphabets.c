@@ -16,10 +16,11 @@ while (c <= 'z')
 	putchar(c);
 	c++;
 }
-char c2 = 'A';
-while (c2 <= 'Z'){
-	putchar(c2);
-	c2++;
+char m = 'A';
+while (m <= 'Z')
+{
+	putchar(m);
+	m++;
 }
 putchar('\n');
 return (0);
