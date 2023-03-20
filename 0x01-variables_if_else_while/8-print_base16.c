@@ -16,11 +16,11 @@ while (i < 10)
 	putchar(i + '0');
 	i++;
 }
-char c = 'a';
-while (c <= 'f')
+i = 'a';
+while (i <= 'f')
 {
-	putchar(c);
-	c++;
+	putchar(i);
+	i++;
 }
 putchar('\n');
 return (0);
