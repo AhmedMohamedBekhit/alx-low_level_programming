@@ -18,6 +18,10 @@ while (c <= 'z')
 		putchar(c);
 		c++;
 	}
+	else
+	{
+		c++;
+	}
 }
 putchar('\n');
 return (0);
