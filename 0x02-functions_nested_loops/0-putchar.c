@@ -6,7 +6,7 @@
 *
 */
 
-int main(void)
+int prints(void)
 {
 	printf("_putchar");
 	return(0);
