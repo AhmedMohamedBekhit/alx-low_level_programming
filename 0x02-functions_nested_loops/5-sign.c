@@ -2,7 +2,7 @@
 
 /**
  * print_sign - check n greater than 0 or less 0 or not 
- *
+ * @n: if n greater than 0 return 1 if n less than 0 return -1 if n equal 0 return 0
  */
 
 int print_sign(int n)
@@ -14,12 +14,12 @@ int print_sign(int n)
 	}
 	else if (n == 0)
 	{
-		_putchar('0');		
+		_putchar('0');
 		return (0);
 	}
 	else
 	{
-		_putchar('-');				
+		_putchar('-');
 		return (-1);
 	}
 }
