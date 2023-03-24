@@ -1,8 +1,7 @@
 # include "main.h"
 /*
-* print 
-* return (0)
-*
+*print 
+*return (0)
 */
 
 int main(void)
@@ -16,5 +15,5 @@ int main(void)
 	_putchar('a');
 	_putchar('r');
 	_putchar('\n');
-	return(0);
+	return (0);
 }
