@@ -1,5 +1,5 @@
 #include "main.h"
-/*
+/**
 *main - Entry point
 *include main function
 *Return: nothing | return void
