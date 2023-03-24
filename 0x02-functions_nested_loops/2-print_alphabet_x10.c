@@ -1,0 +1,23 @@
+#include "main.h"
+
+/**
+ *print_alphabet - print alphabet lowercase 10 times
+ *
+ *Return: Always 0
+ */
+void print_alphabet(void)
+{
+	int i = 0 ;
+
+	while (i<10)
+	{
+		char c = 'a';
+
+		while (c <= 'z')
+		{
+			_putchar(c);
+			c++;
+		}
+		_putchar('\n');
+	}
+}
