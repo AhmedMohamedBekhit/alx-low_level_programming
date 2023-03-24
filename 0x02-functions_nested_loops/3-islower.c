@@ -1,8 +1,8 @@
 #include "main.h"
 
 /**
- *_islower - check alphabet lowercase or not given c
- *
+ *_islower - check alphabet lowercase or not given parameter c
+ * if c lowercase return 1 else return 0
  *Return: Always 0
  */
 int _islower(int c)
