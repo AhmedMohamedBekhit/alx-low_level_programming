@@ -1,6 +1,6 @@
 # include "main.h"
 /*
-*main - Entry point 
+*main - Entry point
 *include main function
 *prints _putchar
 *return (0)
