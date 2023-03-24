@@ -1,7 +1,8 @@
 #include "main.h"
 /**
- * _abs - abselute value of int 
- *
+ * _abs - abselute value of int
+ * @i:
+ * Return:
  */
  int _abs(int i)
  {
