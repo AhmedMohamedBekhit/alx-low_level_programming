@@ -2,7 +2,7 @@
 
 /**
  * main - check the code for Holberton School students.
- *
+ * print_alphabet function 
  * Return: Always 0.
  */
 void print_alphabet(void)
