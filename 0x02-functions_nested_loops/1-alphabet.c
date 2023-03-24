@@ -1,9 +1,9 @@
 #include "main.h"
 
 /**
- * main - check the code for Holberton School students.
- * Return: Always 0.
- * print_alphabet - prints the alphabet in lowercase
+ *print_alphabet - print alphabet lowercase
+ *
+ *Return: Always 0
  */
 void print_alphabet(void)
 {
