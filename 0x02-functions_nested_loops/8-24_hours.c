@@ -1,42 +1,31 @@
 #include "main.h"
+
 /**
- * jack_bauer - display time
- * @i: increase to 2
- * @j: increase to 3
- * @k: increase to 5
- * @l: increase to 9
+ * jack_bauer -prints every minute of the day
+ *
+ * Return: Always 0.
  */
 
 void jack_bauer(void)
-{
-	int i = 0;
 
-	while (i <= 2)
+{
+	int a;
+	int b;
+
+	for (a = 0; a <= 23; a++)
 	{
-		int j = 0;
-		
-		while (j <= 3)
+		for (b = 0; b <= 59; b++)
 		{
-			int k = 0;
-			
-			while (k <= 5)
-			{
-				int l = 0;
-				
-				while (l <= 9)
-				{
-					_putchar(i + '0');
-					_putchar(j + '0');
-					_putchar(':');
-					_putchar(k + '0');
-					_putchar(l + '0');
-					_putchar('\n');
-					l++;
-				}
-				k++;
-			}
-			j++;
+			_putchar (a / 10 + '0');
+			_putchar (a % 10 + '0');
+			_putchar (':');
+			_putchar (b / 10 + '0');
+			_putchar (b % 10 + '0');
+			_putchar ('\n');
+
 		}
-		i++;
+
+
 	}
+
 }
