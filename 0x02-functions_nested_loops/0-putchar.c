@@ -7,6 +7,7 @@
 
 int main(void)
 {
+	/* import main.h */
 	_putchar('_');
 	_putchar('p');
 	_putchar('u');
