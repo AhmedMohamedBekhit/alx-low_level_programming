@@ -6,12 +6,13 @@
  *
  **/
 
-void main (void)
+int main (void)
 {
-	int i= 0;
+	int i = 0;
 	while (i < 1024)
 	{
-		printf("%i, ", 3*i);
-		printf("%i, ", 5*i);
+		printf("%i ", 3*i);
+		printf("%i ", 5*i);
 	}
+	return (0);
 }
