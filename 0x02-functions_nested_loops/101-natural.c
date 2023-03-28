@@ -12,7 +12,9 @@ int main (void)
 	while (i < 1024)
 	{
 		printf("%i ", 3*i);
+		printf("\n");
 		printf("%i ", 5*i);
+		printf("\n");
 	}
 	return (0);
 }
