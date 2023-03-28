@@ -1,8 +1,8 @@
 #include "main.h"
 /**
- * @i: to increase 
- * print_times_table - print time table 
- * @n: to increase n 
+ * @i: to increase
+ * print_times_table - print time table
+ * @n: to increase n
  **/
 void print_times_table(int n)
 {
@@ -12,17 +12,22 @@ void print_times_table(int n)
 		int i = 0;
 		while (i < n)
 		{
-			if (n == 0)
+			int j = 0;
+			while (j < n)
 			{
-				_putchar(i*n);				
+				if (n == 0)
+				{
+					_putchar(i*j);
+				}
+				else
+				{
+					_putchar(i*n + '0');
+					_putchar(',');
+					_putchar(' ');
+				}
+				i++;
 			}
-			else
-			{
-				_putchar(i*n + '0');
-				_putchar(',');
-				_putchar(' ');
-			}
-			i++;
+			j++;
 		}
 	}
 }
