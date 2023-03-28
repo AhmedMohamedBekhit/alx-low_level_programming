@@ -15,6 +15,7 @@ int main (void)
 		printf("\n");
 		printf("%i ", 5*i);
 		printf("\n");
+		i++;
 	}
 	return (0);
 }
