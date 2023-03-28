@@ -12,11 +12,17 @@ void print_times_table(int n)
 		int i = 0;
 		while (i < n)
 		{
-			_putchar(i*n);
-			_putchar(',');
-			_putchar(' ');
+			if (n == 0)
+			{
+				_putchar(i*n);				
+			}
+			else
+			{
+				_putchar(i*n + '0');
+				_putchar(',');
+				_putchar(' ');
+			}
 			i++;
-			
 		}
 	}
 }
