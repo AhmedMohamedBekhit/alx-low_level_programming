@@ -9,13 +9,13 @@
 int main (void)
 {
 	int i = 0;
+	int sum = 0;
 	while (i < 1024)
 	{
-		printf("%i ", 3*i);
-		printf("\n");
-		printf("%i ", 5*i);
-		printf("\n");
+		sum += i*3 + i*5;
 		i++;
 	}
+	printf("%i", sum);
+	printf("\n");
 	return (0);
 }
