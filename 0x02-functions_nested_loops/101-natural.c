@@ -12,7 +12,7 @@ int main (void)
 	int sum = 0;
 	while (i < 1024)
 	{
-		sum += i*3;
+		sum += i*0;
 		i++;
 	}
 	printf("%i", sum);
