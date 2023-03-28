@@ -6,12 +6,16 @@
  **/
 void print_times_table(int n)
 {
+	n = n + 1;
 	if (!((n < 0) || (n > 15)))
 	{
 		int i = 0;
 		while (i < n)
 		{
-			_putchar(i);
+			_putchar(i*n);
+			_putchar(',');
+			_putchar(' ');
+			i++;
 			
 		}
 	}
