@@ -17,11 +17,11 @@ void print_times_table(int n)
 			{
 				if (n == 0)
 				{
-					_putchar(i*j);
+					_putchar(i*j + '0');
 				}
 				else
 				{
-					_putchar(i*n + '0');
+					_putchar(i*j + '0');
 					_putchar(',');
 					_putchar(' ');
 				}
