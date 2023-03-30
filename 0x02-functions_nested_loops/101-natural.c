@@ -1,9 +1,10 @@
 #include <stdio.h>
 #include <stdlib.h>
 /**
- *
- *
- *
+ * main - print the sum of digit devid 3 or 5
+ * Return: always (0)
+ * @i: increase value
+ * @sum: sum
  **/
 
 int main (void)
@@ -12,14 +13,12 @@ int main (void)
 	int sum = 0;
 	while (sum < 1024)
 	{
-		sum += i*5;
+		if (i % 3 == 0 || i % 5 == 0)
+		{
+			sum += i;
+		}
 		i++;
 	}
-	while (sum < 1024)
-    {
-        sum += i*3;
-        i++;
-    }
 	printf("%i", sum);
 	printf("\n");
 	return (0);
