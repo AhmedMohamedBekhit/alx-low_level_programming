@@ -7,17 +7,17 @@
  */
 int main(void)
 {
-	int i = 0;
-	int sum = 0;
-	int x = 1;
-	int y = 2;
+	long int i = 0;
+	long int sum = 0;
+	long int x = 1;
+	long int y = 2;
 
 	while (i < 49)
 	{
 		sum = x + y;
 		x = y;
 		y = sum;
-		printf("%i, ", sum);
+		printf("%1d, ", sum);
 		i++;
 	}
 	printf("\n");
