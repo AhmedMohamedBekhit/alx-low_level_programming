@@ -12,6 +12,7 @@ int main(void)
 	long int x = 1;
 	long int y = 2;
 
+	printf("%ld, ", sum);
 	while (i < 49)
 	{
 		printf("%ld, ", sum);
@@ -20,7 +21,6 @@ int main(void)
 		y = sum;
 		i++;
 	}
-	printf("%ld, ", sum);
 	printf("\n");
 	return (0);
 }
