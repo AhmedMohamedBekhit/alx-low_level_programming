@@ -14,10 +14,10 @@ int main(void)
 
 	while (i < 49)
 	{
+		printf("%ld, ", sum);
 		sum = x + y;
 		x = y;
 		y = sum;
-		printf("%ld, ", sum);
 		i++;
 	}
 	printf("\n");
