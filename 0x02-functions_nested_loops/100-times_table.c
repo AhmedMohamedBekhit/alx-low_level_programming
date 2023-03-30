@@ -1,33 +1,37 @@
 #include "main.h"
+
 /**
- * @i: to increase
- * print_times_table - print time table
- * @n: to increase n
- **/
+ * print_times_table - Prints the times table of the input,
+ * starting with 0
+ * @n: The value of the times table to be printed.
+ */
 void print_times_table(int n)
 {
-	n = n + 1;
-	if (!((n < 0) || (n > 15)))
+	int num, mult, prod;
+
+	if (n >= 0 && n <= 15)
 	{
-		int i = 0;
-		while (i < n)
+		for (num = 0; num <= n; num++)
 		{
-			int j = 0;
-			while (j < i)
-			{
-				if (n == 0)
-				{
-					_putchar(i*j+ '0');
-				}
-				else
-				{
-					_putchar(i*j + '0');
-					_putchar(',');
-					_putchar(' ');
-				}
-				i++;
+			_putchar('0');
+													     for (mult = 1; mult <= n; mult++)								{
+														     _putchar(',');
+														     _putchar(' ');
+														     prod = num * mult;
+		      if (prod <= 99)										_putchar(' ');
+		      if (prod <= 9)										_putchar(' ');
+		      if (prod >= 100)
+		      	 {
+				_putchar((prod / 100) + '0');
+				_putchar(((prod / 10)) % 10 + '0');
+			 }
+													     else if (prod <= 99 && prod >= 10)
+													    	 {
+				_putchar((prod / 10) + '0');
+			  }
+													     _putchar((prod % 10) + '0');
 			}
-			j++;
+		_putchar('\n');
 		}
 	}
 }
