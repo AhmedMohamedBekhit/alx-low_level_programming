@@ -3,8 +3,8 @@
 /**
  * main - print the sum of digit devid 3 or 5
  * Return: always (0)
- * @i: increase value less than 1024
- * @sum: addition operation
+ * @i:increase value less than 1024
+ * @sum:addition operation
  **/
 
 int main(void)
