@@ -1,12 +1,10 @@
 #include <stdio.h>
 #include <stdlib.h>
 /**
- * main - print the sum of digit devid 3 or 5
- * Return: always (0)
- * @i:increase value less than 1024
- * @sum:addition operation
- **/
-
+ * main - check for multiples of 3 and 5
+ *
+ * Return: 0 always
+ */
 int main(void)
 {
 	int i = 0;
