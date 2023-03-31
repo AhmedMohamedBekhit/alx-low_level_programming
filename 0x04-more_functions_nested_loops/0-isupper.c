@@ -1,8 +1,8 @@
 #include "main.h"
 /**
- *
- * _isupper : upper cae 
- *Return : 1 or 0
+ * @c: to kjldhflasSQ
+ * _isupper : upper cae
+ * Return : 1 or 0
  */
 
 int _isupper(int c)
