@@ -5,12 +5,12 @@
 #include "main.h"
 
 /**
- * _isupper - Checks for uppercase characters.
+ * _isdigit - Checks for uppercase characters.
  * @c: The character to be checked.
  *
  * Return: 1 if character is uppercase, 0 otherwise.
  */
-int _isupper(int c)
+int _isdigit(int c)
 {
 	if (c >= 10 && c <= 99)
 	{
