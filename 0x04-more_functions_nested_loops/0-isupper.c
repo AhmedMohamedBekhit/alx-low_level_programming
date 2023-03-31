@@ -1,7 +1,7 @@
 #include "main.h"
 /**
  * @c: to kjldhflasSQ
- * _isupper : upper cae
+ * _isupper - upper cae
  * Return : 1 or 0
  */
 
